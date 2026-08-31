@@ -81,8 +81,10 @@ def test_unified_app_shortcuts_and_drawing(qtbot):
 
 def test_main(monkeypatch):
     import sys
-    import swissclock.main
+
     from PySide6.QtWidgets import QApplication
+
+    import swissclock.main
     # Mock sys.argv and sys.exit
     monkeypatch.setattr(sys, "argv", ["swissclock"])
     monkeypatch.setattr(sys, "exit", lambda x: x)
