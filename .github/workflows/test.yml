@@ -32,3 +32,8 @@ jobs:
     - name: Run Tests
       # xvfb-run creates a virtual X server so PySide6 can run headlessly
       run: QT_DEBUG_PLUGINS=1 xvfb-run -a tox
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@v2
+      with:
+        file: coverage.xml

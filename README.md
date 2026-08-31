@@ -1,4 +1,7 @@
 # SwissClock
+[![Test](https://github.com/alinelena/swissclock/actions/workflows/test.yml/badge.svg)](https://github.com/alinelena/swissclock/actions/workflows/test.yml)
+[![Coverage Status](https://coveralls.io/repos/github/alinelena/swissclock/badge.svg?branch=main)](https://coveralls.io/github/alinelena/swissclock?branch=main)
+
 A Swiss Railways inspired unified analog clock and morphing digital stopwatch *vibed into existence with Gemini 3.1 Pro*
 
 ![Swiss Railway Animation](pics/swiss_animation.gif)

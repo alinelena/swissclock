@@ -1,10 +1,19 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 import sys
-from PySide6.QtCore import Qt
-from PySide6.QtGui import QIcon, QKeySequence, QShortcut
-from PySide6.QtWidgets import QApplication, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QStackedWidget
+
+from PySide6.QtGui import QKeySequence, QShortcut
+from PySide6.QtWidgets import (
+    QApplication,
+    QHBoxLayout,
+    QPushButton,
+    QStackedWidget,
+    QVBoxLayout,
+    QWidget,
+)
+
 from .clock import AnalogClock
 from .stop import StopWatch
+
 
 class UnifiedApp(QWidget):
     def __init__(self):

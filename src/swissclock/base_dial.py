@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-from PySide6.QtCore import Qt, QTimer, QRectF
+from PySide6.QtCore import QRectF, Qt, QTimer
 from PySide6.QtGui import QColor, QPainter
-from PySide6.QtWidgets import QWidget, QMenu, QMessageBox
+from PySide6.QtWidgets import QMenu, QMessageBox, QWidget
+
 
 class BaseDial(QWidget):
     def __init__(self, parent=None):

@@ -1,11 +1,14 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-import sys
 import math
-from PySide6.QtCore import Qt, QRectF, QElapsedTimer
+import sys
+
+from PySide6.QtCore import QElapsedTimer, QRectF, Qt
 from PySide6.QtGui import QPainter, QPen
-from PySide6.QtWidgets import QApplication, QMenu, QInputDialog
+from PySide6.QtWidgets import QApplication, QInputDialog, QMenu
+
 from .base_dial import BaseDial
 from .morph_digit import MorphDigit
+
 
 class StopWatch(BaseDial):
     def __init__(self, parent=None):

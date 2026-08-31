@@ -1,10 +1,12 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
-import sys
 import math
-from PySide6.QtCore import Qt, QTime, QRectF
-from PySide6.QtGui import QPainter, QPen, QColor, QFont
+import sys
+
+from PySide6.QtCore import QRectF, Qt, QTime
 from PySide6.QtWidgets import QApplication
+
 from .base_dial import BaseDial
+
 
 class AnalogClock(BaseDial):
     def __init__(self, parent=None):

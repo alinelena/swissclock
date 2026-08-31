@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 from PySide6.QtCore import QPointF, Qt
-from PySide6.QtGui import QPainter, QPen, QColor
+from PySide6.QtGui import QColor, QPen
 
 # Define the 7 standard segments on a 1x2 grid
 SEGS = [
@@ -31,7 +31,7 @@ STATES = [
 class MorphDigit:
     def __init__(self):
         self.target = 0
-        self.opacities = list(float(x) for x in STATES[0])
+        self.opacities = [float(x) for x in STATES[0]]
         
     def set_target(self, digit):
         if self.target != digit:

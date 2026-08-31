@@ -31,3 +31,7 @@ wheels/
 venv/
 ENV/
 .tox/
+
+# Coverage
+.coverage
+coverage.xml
