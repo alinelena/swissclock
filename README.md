@@ -1,5 +1,5 @@
 # SwissClock
-A Swiss Railways inspired unified analog clock and morphing digital stopwatch built with PySide6.
+A Swiss Railways inspired unified analog clock and morphing digital stopwatch *vibed into existence with Gemini 3.1 Pro*
 
 ![Swiss Railway Animation](pics/swiss_animation.gif)
 
