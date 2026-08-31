@@ -16,5 +16,11 @@ dependencies = [
     "PySide6>=6.0.0",
 ]
 
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-qt"
+]
+
 [project.scripts]
 swissclock = "swissclock.main:main"
