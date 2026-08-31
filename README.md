@@ -2,6 +2,7 @@
 [![Test](https://github.com/alinelena/swissclock/actions/workflows/test.yml/badge.svg)](https://github.com/alinelena/swissclock/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/alinelena/swissclock/badge.svg?branch=main)](https://coveralls.io/github/alinelena/swissclock?branch=main)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![PyPI](https://img.shields.io/pypi/v/swissclock)](https://pypi.org/project/swissclock/)
 
 A Swiss Railways inspired unified analog clock and morphing digital stopwatch *vibed into existence with Gemini 3.1 Pro*
 
