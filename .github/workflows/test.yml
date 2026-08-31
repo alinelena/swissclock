@@ -42,3 +42,15 @@ jobs:
       uses: coverallsapp/github-action@v2
       with:
         file: coverage.xml
+        flag-name: run-${{ matrix.python-version }}
+        parallel: true
+
+  coveralls_finish:
+    needs: test
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Coveralls Finished
+      uses: coverallsapp/github-action@v2
+      with:
+        parallel-finished: true

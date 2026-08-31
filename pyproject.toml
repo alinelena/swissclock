@@ -27,3 +27,12 @@ test = [
 
 [project.scripts]
 swissclock = "swissclock.main:main"
+
+[tool.coverage.run]
+source = ["swissclock"]
+
+[tool.coverage.paths]
+source = [
+    "src/swissclock",
+    ".tox/*/lib/python*/site-packages/swissclock",
+]
