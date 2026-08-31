@@ -1,0 +1,20 @@
+[build-system]
+requires = ["uv-build<0.11"]
+build-backend = "uv_build"
+
+[project]
+name = "swissclock"
+version = "0.1.0"
+description = "A Swiss Railways inspired unified analog clock and morphing digital stopwatch"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Alin Elena", email = "alin@elena.re" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "PySide6>=6.0.0",
+]
+
+[project.scripts]
+swissclock = "swissclock.main:main"
