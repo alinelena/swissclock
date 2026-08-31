@@ -12,6 +12,12 @@ This skill outlines the software engineering practices, tooling stack, and local
 - **Environment**: Always run commands within the `janus` micromamba environment. Prefix your commands with: `micromamba run -n janus <command>`
 - **Dependencies**: The project uses `uv` for blazing-fast package management instead of standard `pip`. 
   - To install packages: `micromamba run -n janus uv pip install <package>`
+- **Build System**: The `pyproject.toml` should always use `uv_build` as its build backend.
+  ```toml
+  [build-system]
+  requires = ["uv-build<0.11"]
+  build-backend = "uv_build"
+  ```
 
 ## 2. Linting and Formatting
 - **Ruff**: The project uses Ruff as its primary linter and formatter.
