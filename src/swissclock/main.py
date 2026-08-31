@@ -121,7 +121,7 @@ class UnifiedApp(QWidget):
             self.action_widget.setVisible(False)
 
 def main():
-    app = QApplication(sys.argv)
+    app = QApplication.instance() or QApplication(sys.argv)
     
     # Optional: Set an application-wide stylesheet for a modern dark look if desired
     app.setStyleSheet("""
