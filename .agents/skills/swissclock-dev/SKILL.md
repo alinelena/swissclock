@@ -15,7 +15,7 @@ This skill outlines the software engineering practices, tooling stack, and local
 - **Build System**: The `pyproject.toml` should always use `uv_build` as its build backend.
   ```toml
   [build-system]
-  requires = ["uv-build<0.11"]
+  requires = ["uv_build>=0.12.7,<0.13"]
   build-backend = "uv_build"
   ```
 
