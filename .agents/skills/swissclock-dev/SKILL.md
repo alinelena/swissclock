@@ -32,7 +32,7 @@ This skill outlines the software engineering practices, tooling stack, and local
   `micromamba run -n janus uv run pytest --cov=swissclock --cov-report=term-missing`
 - **Headless UI Testing**: If running in a headless environment (like GitHub Actions or a background agent task), tests must be wrapped in `xvfb-run` to mock an X11 display:
   `xvfb-run micromamba run -n janus uv run pytest`
-- **Matrix Testing**: `tox` is configured (`tox.ini`) to test against Python 3.11, 3.12, 3.13, and 3.14. Run the full suite with:
+- **Matrix Testing**: `tox` is configured (`tox.ini`) to test against Python 3.11, 3.12, 3.13, 3.14, and 3.15. Run the full suite with:
   `micromamba run -n janus tox`
 
 ## 4. CI/CD (GitHub Actions)

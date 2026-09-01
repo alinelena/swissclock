@@ -1,6 +1,7 @@
 # SwissClock
 [![Test](https://github.com/alinelena/swissclock/actions/workflows/test.yml/badge.svg)](https://github.com/alinelena/swissclock/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/alinelena/swissclock/badge.svg?branch=main)](https://coveralls.io/github/alinelena/swissclock?branch=main)
+[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14%20%7C%203.15-blue?logo=python)](https://github.com/alinelena/swissclock/actions/workflows/test.yml)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
